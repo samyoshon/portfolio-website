@@ -123,6 +123,10 @@ body {
 		box-sizing: border-box;
 		padding-left: 40px;
 		padding-right: 20px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.portfolio-piece {
