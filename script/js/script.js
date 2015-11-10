@@ -1,4 +1,5 @@
-$(document).ready(function() {
+$(function(){
+
 // init controller
 	var controller = new ScrollMagic.Controller();
 
@@ -7,5 +8,4 @@ $(document).ready(function() {
 				.setTween("#previousContent", {color: 'white', ease: Linear.easeNone})
 				// .addIndicators({name: "1 - no duration"})
 				.addTo(controller);
-
 });
