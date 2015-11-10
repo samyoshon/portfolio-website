@@ -7,9 +7,7 @@ var port = process.env.PORT || 3000;
 
 app.use(express.static(__dirname + '/view'));
 //Store all HTML files in view folder.
-app.use(express.static(__dirname + '/css'));
-//Store all JS and CSS in Scripts folder.
-app.use(express.static(__dirname + '/js'));
+app.use(express.static(__dirname + '/scripts'));
 //Store all JS and CSS in Scripts folder.
 
 app.get('/',function(req,res){
