@@ -1,0 +1,204 @@
+/* TABLET SIZE RESPONSE */
+
+@media screen and (max-width: 768px) {
+
+/* NAV BAR */
+
+	.navbar-default {
+		background-color: white !important;
+		border: 0 !important;
+		border-color: white !important;
+	}
+
+	.navbar-right {
+		margin-right: 10px !important;
+		font-family: 'Oswald', sans-serif;
+	}
+
+	.navbar-right li {
+		color: black !important;
+		float: right;
+	}
+
+/* END */
+
+/* FIRST SECTION OF PORTFOLIO */
+
+	#first {
+		height: auto;
+		background-color: white;
+		color: black;
+		font-family: 'Oswald', sans-serif;
+		display: flex;
+	}
+
+	#hello {
+		font-size: 90px;
+		padding-top: 110px;
+		padding-bottom: 110px;
+		padding-left: 0;
+		text-align: center;
+	}
+
+	#blinking-key {
+		animation: blink 1.2s infinite;
+	}
+
+	@keyframes blink {
+		to {opacity: .0;}
+	}
+
+/* END */
+
+/* SECOND SECTION OF PORTFOLIO */
+
+	#second {
+		background-color: black;
+	}
+
+	#previousContent {
+		text-align: center;
+		padding: 40px;
+		display: flex;
+	}
+
+	#previousTitle {
+		font-size: 0px;
+		font-weight: normal;
+		padding: 0px;
+		font-family: 'Oswald', sans-serif;
+		float: left;
+		border-right: 0px solid white;
+	}
+
+	#previousDesc {
+		font-size: 25px;
+		font-family: 'Oswald', sans-serif;
+		width: 60%;
+		padding: 18px;
+		margin-right: auto;
+		margin-left: auto;
+		float: right;
+	}
+
+/* END */
+
+/* THIRD SECTION OF PORTFOLIO */
+
+	#third {
+		height: auto;
+		background-color: #efefef;
+		font-family: 'Oswald', sans-serif;
+	}
+
+	#title-third {
+		padding: 30px;
+	}
+
+	.portfolio-container {
+		text-align: center;
+	}
+
+	.single-project-container {
+		display: block;
+	}
+
+	#paragraph-flex {
+		box-sizing: border-box;
+		padding: 10px;
+	}
+
+	.inside-flex {
+		width: 100%;
+	}
+
+	.portfolio-piece {
+		border: 4px solid black;
+		display: inline-block;
+		height: 300px;
+		margin: 2px;
+	}
+
+	.portfolio-piece:hover {
+		transform: scale(1.02);
+	}
+
+
+
+	#portfolio-first {
+		content: url('../css/portfolio-images/lay-a-cake.png');
+		width: 100%;
+	}
+
+	#portfolio-second {
+		content: url('../css/portfolio-images/cooking-trailers.png');
+		width: 100%;
+	}
+
+	#portfolio-third {
+		content: url('../css/portfolio-images/order-what-app.png');
+		width: 100%;
+	}
+
+	#portfolio-fourth {
+		content: url('../css/portfolio-images/jetpath.png');
+		width: 100%;
+	}
+
+	#asterick-top {
+		margin-top: 25px;
+	}
+
+	#asterick-bottom {
+		margin-bottom: 35px;
+	}
+
+/* END */
+
+/* FOURTH SECTION OF PORTFOLIO */
+
+	#fourth {
+		background-color: black;
+		height: auto;
+	}
+
+	.fa {
+		color: white;
+	}
+
+	.fa:hover {
+		color: #858e93;
+	}
+
+	#contactContent {
+		color: black;
+		text-align: center;
+		display: flex;
+	}
+
+	#contactTitle {
+		font-size: 0px;
+		font-weight: bold;
+		padding: 0px;
+		font-family: 'Oswald', sans-serif;
+		color: white;
+		border-right: 0px solid white;
+	}
+
+	#contactDesc {
+		font-size: 50px;
+		font-family: 'Oswald', sans-serif;
+		padding: 18px;
+		margin-right: auto;
+		margin-left: auto;
+		float: right;
+		display: flex;
+		width: 100%;
+	}
+
+	#contactDesc a {
+		width: 33%;
+	}
+/* END */
+
+}

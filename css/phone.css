@@ -1,0 +1,84 @@
+/* PHONE SIZE RESPONSE */
+
+@media screen and (max-width: 414px) {
+	/* SECOND SECTION OF PORTFOLIO */
+
+	#second {
+		background-color: black;
+	}
+
+	#previousContent {
+		text-align: center;
+		padding: 40px;
+		display: flex;
+	}
+
+	#previousTitle {
+		font-size: 0px;
+		font-weight: normal;
+		padding: 0px;
+		font-family: 'Oswald', sans-serif;
+		float: left;
+		border-right: 0px solid white;
+	}
+
+	#previousDesc {
+		font-size: 15px;
+		font-family: 'Oswald', sans-serif;
+		width: 60%;
+		padding: 18px;
+		margin-right: auto;
+		margin-left: auto;
+		float: right;
+	}
+
+	/* END */
+
+	/* FOURTH SECTION OF PORTFOLIO */
+
+	#fourth {
+		background-color: black;
+		height: auto;
+	}
+
+	.fa {
+		color: white;
+	}
+
+	.fa:hover {
+		color: #858e93;
+	}
+
+	#contactContent {
+		color: black;
+		text-align: center;
+		display: flex;
+	}
+
+	#contactTitle {
+		font-size: 0px;
+		font-weight: bold;
+		padding: 0px;
+		font-family: 'Oswald', sans-serif;
+		margin-top: 0px;
+		color: white;
+		border-right: 0px solid white;
+	}
+
+	#contactDesc {
+		font-size: 50px;
+		font-family: 'Oswald', sans-serif;
+		padding: 18px;
+		margin-right: auto;
+		margin-left: auto;
+		float: right;
+		display: flex;
+		width: 100%;
+	}
+
+	#contactDesc a {
+		width: 33%;
+	}
+
+	/* END */
+}
