@@ -131,6 +131,7 @@ body {
 
 	.portfolio-piece {
 		border: 4px solid black;
+		box-shadow: 5px 5px;
 		display: inline-block;
 		height: 300px;
 		margin: 2px;
